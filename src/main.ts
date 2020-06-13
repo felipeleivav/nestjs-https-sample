@@ -3,8 +3,8 @@ import { AppModule } from './app.module';
 import * as fs from 'fs';
 
 // definimos la ruta
-const crPath = '/etc/letsencrypt/live/testapi.epmapp.cl/fullchain.pem';
-const pkPath = '/etc/letsencrypt/live/testapi.epmapp.cl/privkey.pem';
+const crPath = '/etc/letsencrypt/live/testapi.leiva.io/fullchain.pem';
+const pkPath = '/etc/letsencrypt/live/testapi.leiva.io/privkey.pem';
 const options: any = {};
 
 // validamos si los archivos existen
